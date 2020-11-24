@@ -1,0 +1,87 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #202020;
+    color: #fff;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    /* justify-content: space-around; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subjects{
+    width: 250px;
+    text-align: center;
+
+}
+
+.subjects ul{
+    height: 80vh;
+    text-align: center;
+    overflow: scroll
+}
+
+.subjects ul::-webkit-scrollbar {
+    display: none;
+}
+.principal{
+    padding: 0 150px;
+    height: 300px;
+    width: 300px;
+    transform: translate(0%, 100%);
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 20px;
+    border: none;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #777;
+}
+
+.principal h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.history {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    /* transform: translate(0%, 100%); */
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    font-weight: 200;
+}
+
+.container li{
+    margin: 5px 0;
+}
+
