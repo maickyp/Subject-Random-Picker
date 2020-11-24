@@ -1,15 +1,15 @@
 "use strict";
-// List of topics
+// List of subjects
 const subjects = ["Conjuntos Numéricos", "Recta Numérica", "Multiplos y Divisores",    "Criterios de Divisibilidad", "mcm y MCD", "Descomposición Factorial", "Potencias", "Jerarquía de operaciones", "Notación Desarrollada y Científica", "Fracciones", "Regla de 3 Directa", "Regla de 3 Inversa", "Portentajes", "Uso de datos de Regla 3", "Leyes de exponentes", "Operaciones Algebráicas", "Factorización", "Operador Matemático", "Ecuaciones 1 variable", "Criterios de Ecuaciones", "Inecuaciones", "Ecuaciones cuadráticas", "Divisón Polinómica y Sintética", "Funciones", "Pendiente","Representación gráfica de inecuaciones", "Ángulos", "Ángulos entre paralelas", "Ángulos en figuras", "Triángulos", "Áreas", "Area Sombreada", "Perímetros", "Crecimiento ropocional", "Plano cartesiano", "Valor Absoluto", "Raíz cuadrada", "Combinatoria", "Probabilidad", "Conjuntos", "Estadística", "Series"];
 
 // History of picks
 let history = [];
 
-// Lenght of list of topics
+// Lenght of list of subjects
 const subjectsLength = subjects.length;
 
-// how many topics do you want to track
-const historyLength = 10;
+// how many subjects do you want to track
+const historyLength = 5;
 
 // control variable for be sure selected topic is not previously taken.
 let control = false;
